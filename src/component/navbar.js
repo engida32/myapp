@@ -8,7 +8,7 @@ import React, { Component } from "react";
   };
   render() {
     return (
-        <nav className="navbar bg-primary">
+        <nav className="navbar badge-dark">
         <h1> 
           <i className = {this.props.icon} /> {this.props.title} 
           </h1>
