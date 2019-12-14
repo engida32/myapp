@@ -1,11 +1,11 @@
 
 import React, { Fragment } from "react";
-import { MDBBtn ,MDBIcon } from "mdbreact";
+import { MDBBtn  } from "mdbreact";
 
 const ButtonPage = () => {
   return (
     <Fragment>    
-      <MDBBtn gradient="aqua">Aqua</MDBBtn>
+      <MDBBtn gradient="aqua">submit</MDBBtn>
 
     </Fragment>
   );

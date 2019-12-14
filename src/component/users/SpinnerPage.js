@@ -1,11 +1,13 @@
 import React from "react";
-import { MDBSpinner } from 'mdbreact';
 
 const SpinnerPage = () => {
   return (
-    <>
-      <MDBSpinner />
-    </>
+  
+<div className="d-flex justify-content-center">
+  <div className="spinner-border" role="status">
+    <span className="sr-only">Loading...</span>
+  </div>
+</div>
   );
 }
 

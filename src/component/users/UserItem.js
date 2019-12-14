@@ -9,7 +9,7 @@ const UserItem =props=> {
           src={avatar_url}
           alt=""
           className="round-img"
-          style={{ width: "60px" }}
+          style={{ width: "60px",margin:'auto' }}
         />
         <h3>{login}</h3>
         <div>
