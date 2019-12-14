@@ -7,11 +7,7 @@ export class Search extends Component {
         text:''
     };
 
-
-    static propTypes = {
-        searchUsers: PropTypes.func.isRequired
-    };
-      
+ 
     onSubmit(e){
         e.preventDefault();
     //    console.log(this.state.text)

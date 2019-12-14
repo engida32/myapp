@@ -8,10 +8,9 @@ export class Search extends Component {
     };
 
 
-    static propTypes = {
-        searchUsers: PropTypes.func.isRequired
-    };
-      
+    import PropTypes from 'prop-types';
+
+     
     onSubmit(e){
         e.preventDefault();
     //    console.log(this.state.text)

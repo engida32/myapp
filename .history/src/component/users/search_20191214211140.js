@@ -8,8 +8,8 @@ export class Search extends Component {
     };
 
 
-    static propTypes = {
-        searchUsers: PropTypes.func.isRequired
+    static PropTypes = {
+        searchUsers:PropTypes.func.isRequired
     };
       
     onSubmit(e){
